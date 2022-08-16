@@ -1,5 +1,5 @@
 #include "main.h"
-
+#include "main_window.h"
 
 START_JUCE_APPLICATION(JuceCalculatorApplication)
 
