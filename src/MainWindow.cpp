@@ -5,6 +5,7 @@ MainWindow::MainWindow(const juce::String name): juce::DocumentWindow(name, juce
                                                                       juce::DocumentWindow::TitleBarButtons::allButtons) {
     setUsingNativeTitleBar (true);
     setContentOwned(new MainComponent(), true);
+    centreWithSize(getWidth(), getHeight());
     setVisible(true);
 
 }
