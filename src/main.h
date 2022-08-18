@@ -1,6 +1,6 @@
 #include <iostream>
 #include "juce_gui_basics/juce_gui_basics.h"
-#include "main_window.h"
+#include "MainWindow.h"
 
 class JuceCalculatorApplication: public juce::JUCEApplication {
 public:

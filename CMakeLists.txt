@@ -7,6 +7,7 @@ target_link_libraries(JuceCalculator
         PRIVATE
             juce::juce_core
             juce::juce_gui_basics
+            juce::juce_audio_utils
 )
 add_subdirectory(src/)
 target_compile_definitions(JuceCalculator
