@@ -12,9 +12,9 @@ const juce::String JuceCalculatorApplication::getApplicationVersion() {
 }
 
 void JuceCalculatorApplication::initialise(const juce::String &commandLineParameters) {
-
+    mainWindow.reset(new MainWindow(getApplicationName()));
 }
 
 void JuceCalculatorApplication::shutdown() {
-
+    mainWindow = nullptr;
 }
