@@ -7,5 +7,6 @@ public:
     void paint(juce::Graphics &) override;
     void resized() override;
 private:
+    juce::Slider slider1;
     JUCE_DECLARE_NON_COPYABLE_WITH_LEAK_DETECTOR(MainComponent)
 };
